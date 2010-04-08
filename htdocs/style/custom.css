@@ -1,0 +1,13 @@
+/*custom css*/
+.breadcrumbs{ border-bottom:1px solid #ccc;margin-bottom:20px; font-family:georgia, serif; padding-bottom:20px;}
+.footer{ background-color:#ccc; text-align:left;padding-top:10px; font-size:90%; padding-left:25px; letter-spacing:0.1em; padding-bottom:10px;}
+.heading{ position:absolute; width:950px; top:218px; z-index:0; height:30px; text-align:left;}
+.heading h1{color:#fff; font-family:georgia, serif;padding:0.2em; padding-left:240px;margin:0em; }
+.mainImage{ background-image:url('../images/mainImage5.jpg'); background-repeat:no-repeat;}
+.mainContent{padding-bottom:35px;}
+.menu{top:100px; left:0px; color:#fff; font-family:georgia, serif; z-index:1;position:relative; width:220px; height:290px; }
+.menu li{padding:0em; margin:0em; text-decoration:none;list-style-type:none; }
+.menu li a:hover{background-color:#3e494e;}
+.menu li a{ color:#fff; line-height:2em; font-size:1.3em;background-color:#6f777b;border-bottom:1px solid #CCCCCC;padding-left:0.5em; display:inline-block;text-decoration:none; width:100%;}
+.menu li .selected{ background-color:#3e494e;}
+.projectInfo{margin-top:120px;}
