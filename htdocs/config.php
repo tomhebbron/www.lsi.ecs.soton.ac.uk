@@ -1,4 +1,4 @@
 <?
-$projectAbbrev = "RPT";
-$projectTitle = "Research Project Template";
+$projectAbbrev = "LSI";
+$projectTitle = "Life Sciences Interface (under construction)";
 ?>
