@@ -21,6 +21,15 @@
 	<div class="span-17 breadcrumbs"><? include '../breadcrumbs.php';?></div>
 	<!-- content goes here-->
 
+	<?php
+	
+	include_once('../topics.php');
+	render_interest_list('Bio-informatics');
+	
+	
+	?>
+	
+
 	<!-- end of content -->
 </div>
 	<div class="span-1 last">&nbsp;</div>

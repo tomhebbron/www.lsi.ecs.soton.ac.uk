@@ -21,13 +21,14 @@
 	<div class="span-17 breadcrumbs"><? include '../breadcrumbs.php';?></div>
 	<!-- content goes here-->
 
-	<h2>Bio-Devices - Physical Interfaces to Living Systems</h2>
-	<p>
-	An overview paragraph.
-	</p>
+	<?php
 	
-	<h3>Lab on a chip/system on chip: microfluidics, high throughput analysis</h3>
-
+	include_once('../topics.php');
+	render_interest_list('Bio-Devices - Physical Interfaces to Living Systems');
+	
+	
+	?>
+	
 
 	<!-- end of content -->
 </div>
