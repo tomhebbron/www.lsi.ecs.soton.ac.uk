@@ -12,4 +12,12 @@
 .menu li .selected{ background-color:#3e494e;}
 .projectInfo{margin-top:120px;}
 
-h1{font-size:16pt}
+h1{font-size:14pt}
+h2{font-size:13pt}
+h3{font-size:12pt}
+h4{font-size:11pt}
+
+div.lsi_interest_listing li h1, div.lsi_interest_listing li h2, div.lsi_interest_listing li h3, div.lsi_interest_listing li h4 
+{
+	margin:1em 0;
+}

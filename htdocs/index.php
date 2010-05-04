@@ -47,16 +47,19 @@ ul.frontlist li
 }
 </style>
 
-<ul class="frontlist">
-	<li><a href="/biodevices" 						>	Bio-Devices: Physical Interfaces to Living Systems</a></li>
-	<li><a href="/bio-inspired_hardware" 	>	Bio-inspired hardware &amp; biological computational substrates</a></li>
-	<li><a href="/bio-inspired_algorithms"> Bio-inspired algorithms</a></li>
-	<li><a href="/bio-informatics" 				>	Bio-informatics</a></li>
-	<li><a href="/bio-science_in-silico" 	>	Bio-Science 1 - simulation modelling and theory of biological systems</a></li>
-	<li><a href="/bio-science_in-vitro"  	>	Bio-Science 2 - Wet-lab/experimental biology</a></li>
-	<li><a href="/medical-health" 				>	Medical/health applications</a></li>
-</ul>
+<p style="font-size:12pt; color:#111;">
+ECS has a strong track record and active research programme for work at the interface with the life sciences. This research takes many different complementary forms (below). These pages provide a high-level 'map' to point toward the different types of Life Sciences Interface research in ECS, indicate the people involved and where to find more information.
+</p>
 
+<?php
+include_once('topics.php');
+//print_r($top_level);
+foreach($top_level AS $t)
+{
+	print('<a href="'.$t->url.'">'.htmlentities($t->title).'</a>'."\n".'<p>'.htmlentities($t->string_summary()).'</p>');
+}
+
+?>
 
 </div>
 	<div class="span-1 last">&nbsp;</div>

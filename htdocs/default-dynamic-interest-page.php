@@ -4,7 +4,7 @@
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-    <? include '../header.php';?>	
+    <? include '../header.php';?>
 </head>
 <body>
 <div class="container mainImage">
@@ -20,6 +20,15 @@
 	<div class="span-17 mainContent">
 	<div class="span-17 breadcrumbs"><? include '../breadcrumbs.php';?></div>
 	<!-- content goes here-->
+
+	<div class="lsi_interest_listing">
+	<?php
+	
+	include_once('../topics.php');
+	render_interest_indexphp();
+	
+	?>
+	</div>	
 
 	<!-- end of content -->
 </div>
