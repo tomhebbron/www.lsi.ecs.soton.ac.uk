@@ -27,10 +27,10 @@ ECS has a strong track record and active research programme for work at the inte
 
 <?php
 include_once('topics.php');
-/*foreach($top_level AS $t)
+foreach($top_level AS $t)
 {
-	print('<a class="toplink" href="'.$t->url.'">'.htmlentities($t->title).'</a>'."\n".'<p>'.htmlentities($t->string_summary()).'</p>');
-}*/
+	print('<a class="toplink" href="'.$t->url.'">'.htmlentities($t->title).'</a>'."\n".'<p>'.htmlentities($t->string_summary()).'.</p>');
+}
 
 ?>
 

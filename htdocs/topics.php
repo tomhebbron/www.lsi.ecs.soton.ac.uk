@@ -34,7 +34,7 @@ class lsi_interest
 				$subsize = count($subs);
 				foreach($subs AS $pos => $t)
 				{
-					print(htmlentities($t->title));
+					print(htmlentities($t->short_title!=''?$t->short_title:$t->title));
 					if ($pos < ($subsize - 2)) print(', ');
 					elseif ($pos == ($subsize - 2)) print(' and ');
 				}
@@ -112,7 +112,7 @@ $top_level['biodevices']->subtopics = array(
 	1 => new lsi_interest(null,null,'Micro-fluidics, nanotechnology, bio-electronics, molecular printing',		array('tm','hm','ng2')),
 	2 => new lsi_interest(null,null,'Point of care devices',																									array('hm','tm')),
 	3 => new lsi_interest(null,null,'Sensor Networks/Environment Sensing',																		array('dder','mz','nmw','bmah','km','pa','jsw')),
-	4 => new lsi_interest(null,null,'Bio-Robotics - with physical interfaces to living systems',							array('kpz')),
+	4 => new lsi_interest(null,'Bio-Robotics','Bio-Robotics - with physical interfaces to living systems',		array('kpz')),
 	5 => new lsi_interest(null,null,'Rehabilitation Prosthetics',																							array('phc'))
 );
 
@@ -121,7 +121,7 @@ $top_level['bio-inspired_hardware']->subtopics = array(
 	0 => new lsi_interest(null,null,'Bio-inspired Robotics',								array('rmc','rid','kpz','nrs')),
 	1 => new lsi_interest(null,null,'Bio-inspired Materials, Biomemetics',	array('dmb','kpz','mdp','hm','gjp')),
 	2 => new lsi_interest(null,null,'Bio-inspired computational devices',		array('mz','prw','km3')),
-	3 => new lsi_interest(null,null,'Biological computational substrates (computation carried out with biological materials/cells/molecules)',null)
+	3 => new lsi_interest(null,'Biological computational substrates','Biological computational substrates (computation carried out with biological materials/cells/molecules)',null)
 );
 $top_level['bio-inspired_hardware']->subtopics[3]->subtopics = array(
 	0 => new lsi_interest(null,null,'Molecular Computation',					array('kpz','sd')),
@@ -135,8 +135,8 @@ $top_level['bio-inspired_algorithms']->subtopics = array(
 );
 
 $top_level['bio-informatics']->subtopics = array(
-	0 => new lsi_interest(null,null,'Bioinformatics - machine learning applied to biological data',	array('apb','cjs','mn','jpms')),
-	1 => new lsi_interest(null,null,'Biometrics',																										array('msn','spb','jnc'))
+	0 => new lsi_interest(null,'Bioinformatics','Bioinformatics - machine learning applied to biological data',	array('apb','cjs','mn','jpms')),
+	1 => new lsi_interest(null,null,'Biometrics',																																array('msn','spb','jnc'))
 );
 
 $top_level['bio-science_in-silico']->subtopics = array(
@@ -145,7 +145,7 @@ $top_level['bio-science_in-silico']->subtopics = array(
 	new lsi_interest(null,null,'Biological Complexity Science, general modelling and simulation',				array('sgb','jn2','raw','kpz','sd','adb')),
 	new lsi_interest(null,null,'Biological network science',																						array('sgb','jn2','sd')),
 	new lsi_interest(null,null,'Artificial Life',																												array('raw','sgb','jn2')),
-	new lsi_interest(null,null,'Molecular and cellular biology - information processing principles of',	array('mdp','kpz','sd'))
+	new lsi_interest(null,'Molecular and cellular biology','Molecular and cellular biology - information processing principles of',	array('mdp','kpz','sd'))
 );
 
 $top_level['bio-science_in-vitro']->subtopics = array(
