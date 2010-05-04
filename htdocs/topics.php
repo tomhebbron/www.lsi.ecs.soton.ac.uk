@@ -136,7 +136,7 @@ $top_level['bio-inspired_algorithms']->subtopics = array(
 
 $top_level['bio-informatics']->subtopics = array(
 	0 => new lsi_interest(null,null,'Bioinformatics - machine learning applied to biological data',	array('apb','cjs','mn','jpms')),
-	1 => new lsi_interest(null,null,'Biometrics - (see also security)',															array('msn','spb','jnc'))
+	1 => new lsi_interest(null,null,'Biometrics',																										array('msn','spb','jnc'))
 );
 
 $top_level['bio-science_in-silico']->subtopics = array(

@@ -45,11 +45,5 @@ margin-top: 5pt;
 <li><a href="http://www.icss.soton.ac.uk/">Institute for Complex Systems Simulation.</a> (<acronym title="Institute for Complex Systems Simulation.">ICSS</acronym>)</li>
 
 </ul>
-	<!-- end of content -->
 
-</div>
-	<div class="span-1 last">&nbsp;</div>
-	<div class="span-24 small footer last"><? include '../footer.php';?></div>
-</div>
-</body>
-</html>
+<?php include '../footer.php';?>

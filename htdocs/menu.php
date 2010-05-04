@@ -6,7 +6,7 @@ include_once('topics.php');
 function printlink($url,$title,$description)
 {
 	$current_url_folder = trim(dirname($_SERVER['SCRIPT_NAME']),'/'); //in this site, all interest sections are subdirs
-	print('<li><a href="/'.$url.'"'.($current_url_folder == $url?' class="selected"':'').' '.(!empty($description)?'title="'.$description.'"':'').'>'.$title.'</a><li>'."\n");
+	print('<li><a href="/'.$url.'"'.($current_url_folder == $url?' class="selected"':'').' '.(!empty($description)?'title="'.htmlentities($description).'"':'').'>'.htmlentities($title).'</a></li>'."\n");
 }
 
 

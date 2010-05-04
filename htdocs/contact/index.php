@@ -44,11 +44,4 @@ Please address any queries about the activities of the <?=$projectTitle?> to:
 </p>
   
 
-		<!-- end of content -->
-
-</div>
-	<div class="span-1 last">&nbsp;</div>
-	<div class="span-24 small footer last"><? include '../footer.php';?></div>
-</div>
-</body>
-</html>
+<?php include '../footer.php';?>

@@ -21,3 +21,21 @@ div.lsi_interest_listing li h1, div.lsi_interest_listing li h2, div.lsi_interest
 {
 	margin:1em 0;
 }
+
+a.toplink
+{
+	font-size: 12pt;
+}
+
+p.seealso
+{
+	font-weight:bold;
+	padding: 1em 0.5em;
+	background-color: #eee;
+}
+
+ul.frontlist li
+{
+	font-size:13pt;
+	margin-top:6pt;
+}
