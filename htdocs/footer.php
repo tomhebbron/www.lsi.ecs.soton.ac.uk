@@ -3,7 +3,7 @@
 	<div id="foot-a" class="span-1 last">&nbsp;</div>
 	<div id="foot-b" class="span-24 small footer last" style="clear:none;">
 		<a href="/contact">Contact Us</a> | <a href="http://www.ecs.soton.ac.uk/business/consultancy.php">Business Consultancy</a> | &#169; <?=date('Y') ?> <a href="http://www.soton.ac.uk">University of Southampton</a>
-		<a href="http://zepler.net/~tomhebbron" style="float:right; margin-right:4em;">teh</a>
+		<a href="http://zepler.net/~tomhebbron" style="float:right; margin-right:4em;" title="Built by Tom Hebbron">teh</a>
 	
 	</div>
 </div>
